@@ -1,0 +1,59 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  },
+  "stickers" : [
+    {
+      "filename" : "Huey 1.sticker"
+    },
+    {
+      "filename" : "Huey 2.sticker"
+    },
+    {
+      "filename" : "Huey 3.sticker"
+    },
+    {
+      "filename" : "Huey 4.sticker"
+    },
+    {
+      "filename" : "Huey 5.sticker"
+    },
+    {
+      "filename" : "Huey 6.sticker"
+    },
+    {
+      "filename" : "Huey 7.sticker"
+    },
+    {
+      "filename" : "Huey 8.sticker"
+    },
+    {
+      "filename" : "Sasquatch 1.sticker"
+    },
+    {
+      "filename" : "Sasquatch 2.sticker"
+    },
+    {
+      "filename" : "Sasquatch 3.sticker"
+    },
+    {
+      "filename" : "Sasquatch 4.sticker"
+    },
+    {
+      "filename" : "Sasquatch 5.sticker"
+    },
+    {
+      "filename" : "Sasquatch 6.sticker"
+    },
+    {
+      "filename" : "Sasquatch 7.sticker"
+    },
+    {
+      "filename" : "Sasquatch 8.sticker"
+    }
+  ]
+}
