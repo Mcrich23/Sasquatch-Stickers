@@ -37,6 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A368E980289F0B370091719F /* Sasquatch Stickers StickerPackExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Sasquatch Stickers StickerPackExtension.entitlements"; path = "Sasquatch Stickers StickerPackExtension/Sasquatch Stickers StickerPackExtension.entitlements"; sourceTree = "<group>"; };
 		A3A5BCF8289C2384002CFEA2 /* Sasquatch Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sasquatch Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A5BCFC289C2384002CFEA2 /* Sasquatch Stickers StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sasquatch Stickers StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A5BD00289C2384002CFEA2 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "Sasquatch Stickers StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 		A3A5BCF1289C2384002CFEA2 = {
 			isa = PBXGroup;
 			children = (
+				A368E980289F0B370091719F /* Sasquatch Stickers StickerPackExtension.entitlements */,
 				A3A5BD00289C2384002CFEA2 /* Stickers.xcstickers */,
 				A3A5BCF9289C2384002CFEA2 /* Products */,
 			);
@@ -273,16 +275,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = "Sasquatch Stickers StickerPackExtension/Sasquatch Stickers StickerPackExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = L7JQRVXU2V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sasquatch Stickers StickerPackExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sasquatch Stickers";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mcrich23.Sasquatch-Stickers.StickerPackExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -292,16 +297,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = "Sasquatch Stickers StickerPackExtension/Sasquatch Stickers StickerPackExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = L7JQRVXU2V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sasquatch Stickers StickerPackExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sasquatch Stickers";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mcrich23.Sasquatch-Stickers.StickerPackExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,16 +320,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = L7JQRVXU2V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sasquatch Stickers/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mcrich23.Sasquatch-Stickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -334,16 +343,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = L7JQRVXU2V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sasquatch Stickers/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mcrich23.Sasquatch-Stickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
